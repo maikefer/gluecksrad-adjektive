@@ -2,8 +2,8 @@
 
 // The wheel used in the game show 'Wheel of Fortune'.
 export const PRESET1 = {
-  name: 'Wheel of Fortune',
-  winningText: 'Result: <b>%s</b>',
+  name: 'Gluecksrad der Adjektive',
+  winningText: 'Ergebnis: <b>%s</b>',
   background: '',
   removeWinning: false,
   prizes: [
