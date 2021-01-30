@@ -8,20 +8,13 @@
 </template>
 
 <script>
-import OptionsPanel from './components/OptionsPanel';
 import WheelPanel from './components/WheelPanel';
 
 export default {
   name: 'App',
   components: {
-    OptionsPanel,
     WheelPanel
   },
-  computed: {
-    showOptions() {
-      return this.$store.state.showOptions;
-    }
-  }
 };
 </script>
 
@@ -35,7 +28,7 @@ body {
   height: 100%;
   height: 100vh;
   color: #455a64;
-  background-color: #f1f4f9;
+  background-color: #aacbb2;
 }
 div {
   margin: 0;
