@@ -137,7 +137,7 @@ function redrawFrame(canvas) {
   ctx.moveTo(-r * 1.01, -r * 0.05);
   ctx.lineTo(-r * 0.935, 0);
   ctx.lineTo(-r * 1.01, r * 0.05);
-  ctx.fillStyle = '#f44336';
+  ctx.fillStyle = '#8b2c3a';
   ctx.fill();
   ctx.restore();
 }
