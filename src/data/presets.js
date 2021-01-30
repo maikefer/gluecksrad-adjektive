@@ -7,17 +7,22 @@ export const PRESET1 = {
   background: '',
   removeWinning: false,
   prizes: [
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#CE93D8', text: '#222', hide: false, fontMod: 1.5 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#FFF59D', text: '#222', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#F48FB1', text: '#222', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#ef9a9a', text: '#222', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#FFCC80', text: '#222', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#80CBC4', text: '#222', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#FFCC80', text: '#222', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#333', text: '#eee', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#CE93D8', text: '#222', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#FFF59D', text: '#222', hide: false, fontMod: 1 },
-    { name: 'Finde 1 Adjektiv', freq: 3, bg: '#F48FB1', text: '#222', hide: false, fontMod: 1 }
+    { name: 'Finde 4 Adjektive für Wasser.', freq: 1, bg: '#D4EFFE', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 3 Adjektive für deine Lehrerin.', freq: 1, bg: '#79AECE', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 4 Adjektive für deine Eltern.', freq: 1, bg: '#659FC3', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 2 Adjektive für den Winter.', freq: 1, bg: '#548bac', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 6 Adjektive für ein Buch.', freq: 1, bg: '#D4EFFE', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 5 Adjektive für die Schule.', freq: 1, bg: '#79AECE', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 3 Adjektive für einen Löwen.', freq: 1, bg: '#659FC3', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 3 Adjektive für dein Klassenzimmer.', freq: 1, bg: '#548bac', text: '#eee', hide: false, fontMod: 1 },
+    { name: 'Finde 3 Adjektive für eine Blume.', freq: 1, bg: '#D4EFFE', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 5 Adjektive für das Wetter.', freq: 1, bg: '#79AECE', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 6 Adjektive für ein Auto.', freq: 1, bg: '#659FC3', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 4 Adjektive für den Sommer.', freq: 1, bg: '#548bac', text: '#222', hide: false, fontMod: 1},
+    { name: 'Finde 4 Adjektive für einen Baum.', freq: 1, bg: '#D4EFFE', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 6 Adjektive für ein Auto.', freq: 1, bg: '#79AECE', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 3 Adjektive und ihr Gegenteil.', freq: 1, bg: '#659FC3', text: '#222', hide: false, fontMod: 1 },
+    { name: 'Finde 4 Adjektive und steigere sie.', freq: 1, bg: '#548bac', text: '#222', hide: false, fontMod: 1 }
   ]
 };
 
