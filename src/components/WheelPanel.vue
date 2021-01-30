@@ -1,8 +1,5 @@
 <template>
   <div class="main-panel wheel-panel">
-    <div class="show-options-container">
-      <a href="#" class="button" @click.prevent.stop="displayOptions">Options</a>
-    </div>
 
     <div class="show-records-container">
       <a href="#" class="button" @click.prevent.stop="displayRecords">Records</a>
@@ -48,14 +45,14 @@ export default {
     return {
       showRecords: false,
       spinning: false,
-      spinText: 'Spin!',
-      resultText: 'Ready. Get set.'
+      spinText: 'Drehen!',
+      resultText: 'Bereit? Drehe am Glücksrad'
     };
   },
   computed: mapState({
     spins: state => state.spins,
     name: state => state.data.name || 'Wheel of Fortune',
-    winningText: state => state.data.winningText || 'Result: <b>%s</b>',
+    winningText: state => state.data.winningText || 'Ergebnis: <b>%s</b>',
     background: state => state.data.background || '',
     prizes: state => state.available,
     headerWidth: state => state.size
@@ -63,14 +60,7 @@ export default {
   methods: {
     displayRecords() {
       this.showRecords = true;
-    },
-
-    // Called by the Options button. Shows the options panel.
-    displayOptions() {
-      if (!this.spinning) {
-        this.$store.commit('showOptions');
-      }
-    },
+    },   
 
     hideRecords() {
       this.showRecords = false;
@@ -80,7 +70,7 @@ export default {
     spinCompleted(index) {
       const prize = this.prizes[index];
       this.spinning = false;
-      this.spinText = 'Spin again!';
+      this.spinText = 'Drehe nochmal!';
       this.resultText = this.winningText.replace('%s', prize.name);
     },
 
@@ -91,7 +81,7 @@ export default {
         if (this.prizes.length === 0) return;
 
         this.spinning = true;
-        this.spinText = 'Spinning...';
+        this.spinText = 'Das Rad dreht...';
         this.resultText = '&#8203;';
         this.$refs.wheel.startSpin();
       }
