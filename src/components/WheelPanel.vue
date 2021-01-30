@@ -51,7 +51,7 @@ export default {
   },
   computed: mapState({
     spins: state => state.spins,
-    name: state => state.data.name || 'Gluecksrad der Adjektive',
+    name: state => state.data.name || 'Glücksrad der Adjektive',
     winningText: state => state.data.winningText || 'Ergebnis: <b>%s</b>',
     background: state => state.data.background || '',
     prizes: state => state.available,
