@@ -14,7 +14,7 @@ export const PRESET1 = {
     { name: 'Finde 6 Adjektive für ein Buch.', freq: 1, bg: '#D4EFFE', text: '#222', hide: false, fontMod: 1.5 },
     { name: 'Finde 5 Adjektive für die Schule.', freq: 1, bg: '#79AECE', text: '#222', hide: false, fontMod: 1.5 },
     { name: 'Finde 3 Adjektive für einen Löwen.', freq: 1, bg: '#659FC3', text: '#222', hide: false, fontMod: 1.5 },
-    { name: 'Finde 3 Adjektive für dein Klassenzimmer.', freq: 1, bg: '#548bac', text: '#222', hide: false, fontMod: 1.5 },
+    { name: 'Finde 3 Adjektive für eine Schnecke.', freq: 1, bg: '#548bac', text: '#222', hide: false, fontMod: 1.5 },
     { name: 'Finde 3 Adjektive für eine Blume.', freq: 1, bg: '#D4EFFE', text: '#222', hide: false, fontMod: 1.5 },
     { name: 'Finde 5 Adjektive für das Wetter.', freq: 1, bg: '#79AECE', text: '#222', hide: false, fontMod: 1.5 },
     { name: 'Finde 6 Adjektive für ein Auto.', freq: 1, bg: '#659FC3', text: '#222', hide: false, fontMod: 1.5 },
