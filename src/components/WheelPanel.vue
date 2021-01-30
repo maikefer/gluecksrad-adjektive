@@ -2,7 +2,7 @@
   <div class="main-panel wheel-panel">
 
     <div class="show-records-container">
-      <a href="#" class="button" @click.prevent.stop="displayRecords">Records</a>
+      <a href="#" class="button" @click.prevent.stop="displayRecords">Ergebnisse</a>
     </div>
 
     <transition name="fade">
@@ -51,7 +51,7 @@ export default {
   },
   computed: mapState({
     spins: state => state.spins,
-    name: state => state.data.name || 'Wheel of Fortune',
+    name: state => state.data.name || 'Gluecksrad der Adjektive',
     winningText: state => state.data.winningText || 'Ergebnis: <b>%s</b>',
     background: state => state.data.background || '',
     prizes: state => state.available,
