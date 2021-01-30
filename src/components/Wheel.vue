@@ -86,7 +86,7 @@ function redrawWheel(canvas, angle, prizes) {
     const lengthMod = 1 - Math.round(prize.name.length / 3) * 0.07;
     const fontMod = prize.fontMod || 1;
     // const fontSize = Math.max(10, 0.4 * r * angleMod * lengthMod * fontMod);
-    const fontSize = 12
+    const fontSize = 12;
 
     // draw text
     ctx.fillStyle = prize.text || DEFAULT_TEXT_COLOR;
