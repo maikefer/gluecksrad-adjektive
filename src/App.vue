@@ -28,7 +28,7 @@ body {
   height: 100%;
   height: 100vh;
   color: #455a64;
-  background-color: #aacbb2;
+  background-color: #f9ede7;
 }
 div {
   margin: 0;
