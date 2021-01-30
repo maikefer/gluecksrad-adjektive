@@ -1,10 +1,10 @@
 <template>
   <div class="records-panel">
-    <div class="records-panel-header">Records</div>
+    <div class="records-panel-header">Ergebnisse</div>
     <div class="records-panel-content" ref="content">
       <table class="records-panel-list">
         <tr v-if="records.length === 0">
-          (No records found)
+          (Du hast noch nicht am Glücksrad gedreht)
         </tr>
         <template v-else>
           <tr v-for="(record, index) in records" class="records-panel-item" :key="index">
