@@ -82,9 +82,9 @@ function redrawWheel(canvas, angle, prizes) {
     ctx.save();
 
     // calculate font size
-    const angleMod = Math.min(arcAngle2 - arcAngle1, 0.25);
-    const lengthMod = 1 - Math.round(prize.name.length / 3) * 0.07;
-    const fontMod = prize.fontMod || 1;
+    // const angleMod = Math.min(arcAngle2 - arcAngle1, 0.25);
+    // const lengthMod = 1 - Math.round(prize.name.length / 3) * 0.07;
+    // const fontMod = prize.fontMod || 1;
     // const fontSize = Math.max(10, 0.4 * r * angleMod * lengthMod * fontMod);
     const fontSize = 12;
 
