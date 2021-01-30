@@ -119,13 +119,13 @@ function redrawFrame(canvas) {
   ctx.beginPath();
   ctx.arc(cx, cy, r * 1.005, 0, 2 * Math.PI, true);
   ctx.arc(cx, cy, r * 0.985, 0, 2 * Math.PI, false);
-  ctx.fillStyle = '#424242';
+  ctx.fillStyle = '#8d8d8d';
   ctx.fill();
 
   // center ring
   ctx.shadowOffsetX = r / 100;
   ctx.shadowOffsetY = r / 100;
-  ctx.fillStyle = '#424242';
+  ctx.fillStyle = '#8d8d8d';
   ctx.beginPath();
   ctx.arc(cx, cy, r / 30, 0, 2 * Math.PI, false);
   ctx.fill();
