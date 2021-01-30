@@ -88,7 +88,7 @@ function redrawWheel(canvas, angle, prizes) {
     // const fontSize = Math.max(10, 0.4 * r * angleMod * lengthMod * fontMod);
     var fontSize = 16;
     if (canvas.width < canvas.height) {
-      fontSize = 20;
+      fontSize = 26;
     }
 
     // draw text
