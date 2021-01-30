@@ -16,7 +16,7 @@
     </div>
 
     <div class="hide-records-container">
-      <a href="#" class="button" @click.prevent.stop="close">Close</a>
+      <a href="#" class="button" @click.prevent.stop="close">Schließen</a>
     </div>
   </div>
 </template>
