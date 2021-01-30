@@ -113,10 +113,10 @@ function redrawFrame(canvas) {
 
   // outer ring
   ctx.save();
-  ctx.shadowOffsetX = r / 100;
-  ctx.shadowOffsetY = r / 100;
-  ctx.shadowBlur = r / 40;
-  ctx.shadowColor = 'rgba(0,0,0,0.2)';
+  //ctx.shadowOffsetX = r / 100;
+  //ctx.shadowOffsetY = r / 100;
+  //ctx.shadowBlur = r / 40;
+  //ctx.shadowColor = 'rgba(0,0,0,0)';
   ctx.beginPath();
   ctx.arc(cx, cy, r * 1.005, 0, 2 * Math.PI, true);
   ctx.arc(cx, cy, r * 0.985, 0, 2 * Math.PI, false);
@@ -124,8 +124,8 @@ function redrawFrame(canvas) {
   ctx.fill();
 
   // center ring
-  ctx.shadowOffsetX = r / 100;
-  ctx.shadowOffsetY = r / 100;
+  // ctx.shadowOffsetX = r / 100;
+  // ctx.shadowOffsetY = r / 100;
   ctx.fillStyle = '#8d8d8d';
   ctx.beginPath();
   ctx.arc(cx, cy, r / 30, 0, 2 * Math.PI, false);
