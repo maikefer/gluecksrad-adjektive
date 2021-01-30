@@ -46,7 +46,7 @@ export default {
       showRecords: false,
       spinning: false,
       spinText: 'Drehen!',
-      resultText: 'Bereit? Drehe am Glücksrad'
+      resultText: 'Bereit? Drehe am Glücksrad!'
     };
   },
   computed: mapState({
